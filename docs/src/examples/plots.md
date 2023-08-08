@@ -28,7 +28,7 @@ julia> @time display(p);
   5.132217 seconds (15.00 M allocations: 847.491 MiB, 2.57% gc time, 45.95%)
 ```
 
-This is approximately 19 seconds from the start of Julia to the first plot.
+This is approximately 10 seconds from the start of Julia to the first plot.
 
 We now create a precompilation file with exactly this workload in a file called `precompile_plots.jl` in the current directory:
 
